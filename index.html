@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jade Neff | Welcome</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="assets/placeholder.jpeg" />
+    <link rel="icon" type="image/png" href="assets/placeholder.jpeg" />
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Awesome Fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+
+    <!--Main Stylesheet-->
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <!---------------------------header/nav section-------------------------->
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Jade Neff</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!---------------------------header section-------------------------->
+
+    <section class="header">
+        <br />
+        <h1>Jade Neff</h1>
+        <h3>Software Developer</h3>
+        <br />
+    </section>
+
+    <!---------------------------about section-------------------------->
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="section-title">About Me</p>
+                </div>
+            </div>
+        </div>
+        <div id="about-me-div" class="container">
+            <div class="row">
+                <div>
+                    <p id="about-me-text">
+                        I have been obsessed with technology for as long as I can remember. My parents often talk about me learning how to turn on a computer or our GameCube and start playing games as young as two years old. I started the software development course at Eleven-Fifty Academy just a couple months after finishing high school because I wanted to learn how to create things with code as fast as I could. I love being able to work with the thing that's been a massive part of my life for so long.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!----------------------------skills--------------------------------->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-8 col-lg-3 skills">
+                    <p class="skill-list-title">Values</p>
+                    <ul>
+                        <li>Quality</li>
+                        <li>Transparency</li>
+                        <li>Communication</li>
+                        <li>Integrity</li>
+                    </ul>
+                </div>
+                <div class=" col-sm-12 col-md-8 col-lg-3 skills">
+                    <p class="skill-list-title">Skills</p>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>C#</li>
+                        <li>git / GitHub</li>
+                        <li>Agile Scrum</li>
+                        <li>Written and Verbal Communication</li>
+                        <li>User Experience</li>
+                        <li>Experience with Google Drive</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------portfolio section-------------------------->
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="section-title">Portfolio</p>
+                </div>
+            </div>
+        </div>
+        <div class="container portfolio-img-div">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="project-caption project-cover">
+                        <p class="project-title">Gold Badge Challenges</p>
+                        <a class="project-cover" href="https://github.com/njade79162/GoldBadgeChallenges" target="_blank"><img
+                                id="gold-badge" class="img-fluid" src="assets/github_logo.png"
+                                alt="Github logo"></a>
+                        <p><span>A series of coding challenges using C#.</span></p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="project-caption project-cover">
+                        <p class="project-title">Restaurant Rater</p>
+                        <a href="https://github.com/njade79162/RestaurantRater" target="_blank"><img
+                                id="static-storefront" class="img-fluid" src="assets/github_logo.png"
+                                alt="Github logo"></a>
+                        <p><span>An API database for viewing ratings of various restaurants.</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                    <div class="project-caption project-cover">
+                        <p class="project-title">We Got Jokes API</p>
+                        <a href="https://github.com/dillan-groce/WeGotJokesWebAPI" target="_blank">
+                            <img id="console-application" class="img-fluid" src="assets/github_logo.png"
+                                alt="Github logo"></a>
+                        <p><span>An API for storing and viewing ratings for multiple different types of jokes.</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------contact section-------------------------->
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p id="contact-title" class="section-title">Contact</p>
+                </div>
+            </div>
+        </div>
+        <div id="form" class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <form action="https://formspree.io/f/meqnojdz" method="POST">
+                        <input name="name" type="text" placeholder="*Name" required>
+                        <input name="subject" type="text" placeholder="*Subject" required>
+                </div>
+                <div class="col-md-6">
+                    <input name="email" type="email" placeholder="*Email" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <textarea name="message" id="" rows="5" placeholder="*Please enter your message..."
+                        required></textarea>
+                    <button type="submit">Send</button>
+                </div>
+            </div>
+            </form>
+        </div>
+    </section>
+
+    <!---------------------------footer section-------------------------->
+
+    <section id="footer">
+        <p><strong>- Find me on -</strong></p>
+        <a class="social-media-icon" href="https://github.com/njade79162" target="blank" title="GitHub">
+            <i class="fa fa-github"></i></a>
+        <br>
+        <br>
+        <hr>
+        <br>
+    </section>
+
+    <!--------------------------- responsive layout plugins ------------->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
